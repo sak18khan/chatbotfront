@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+.head2{
+width:500px;
+height:300px;
+position: absolute;
+top: 70%;
+left:40%;
+}
+#inputtxt{
+  width: 70%;
+  height:15%;
+  background-color: transparent;
+  border-style: none;
+}
+h1{
+  font-family: 'Limelight', cursive;
+  margin-top: 50px;
+  margin-left: 20px;
+  color: #0c4271
+}
+span{
+  color:#0a81ab;
+  font-family: sans-serif;
+}
+
+h2{
+  font-family: 'Limelight', cursive;
+  margin-left: 30px;
+  color: #0c4271;
+}
+.img{
+  height: 500px;
+  width: 400px;
+  
+}
+.btn{
+  padding: 10px;
+  margin-left: 10px;
+}
+span::before {
+    content: "KIKI";
+    animation: animate infinite 4s;
+    padding-left: 10px;
+    font-weight: bolder;
+}
+@keyframes animate {
+
+    0% {
+        content: "KIKI";
+    }
+
+    50% {
+        content: "THE";
+        color: yellow;
+    }
+
+    75% {
+        content: "CHATBOT";
+        color: red;
+    }
+/* learn animatipon of text */
+/* body {
+       background: green;
+   }
+
+   h1 {
+       display: flex;
+       justify-content: center;
+       color: white;
+   }
+
+   span::before {
+       content: "Geeks";
+       animation: animate infinite 3s;
+       padding-left: 10px;
+   }
+
+   @keyframes animate {
+
+       0% {
+           content: "Geeks";
+       }
+
+       50% {
+           content: "for";
+       }
+
+       75% {
+           content: "Geeks";
+       }
+   } */
